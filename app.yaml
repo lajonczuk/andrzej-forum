@@ -13,7 +13,7 @@ handlers:
   static_dir: stylesheets
 
 - url: /(.*\.(gif|png|jpg))$
-  static_file: static/\1
+  static_files: static/\1
   upload: static/.*\.(gif|png|jpg)$
 
 - url: /admin/.*
